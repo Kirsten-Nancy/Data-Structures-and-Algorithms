@@ -16,6 +16,7 @@ def contains_similar_items(arr1, arr2):
 # Better approach using hash tables, Space (a), time- O(a+b)
 def contains_similar_items_set(arr1, arr2):
     hash_set = set(arr1)
+    print(hash_set)
     for i in range(len(arr2)):
         if i in hash_set:
             return True
