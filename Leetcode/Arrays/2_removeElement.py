@@ -1,7 +1,7 @@
 nums = [0,1,2,2,3,0,4,2]
 value = 2
 
-# Allocated extra space for abother array
+# Allocated extra space for another array
 # def removeEl(array,val):
 #     copyArray = nums.copy()
 #     for num in copyArray:
